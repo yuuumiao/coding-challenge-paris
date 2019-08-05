@@ -1,4 +1,4 @@
-# Coding Challenge | Movie Celebrities
+# Coding Challenge
 
 ## Introduction
 
