@@ -4,11 +4,11 @@
 
 Welcome to this coding challenge! Here, we will test your coding abilities by doing some tasks. 
 
-This challenge takes inspirtation from several tests that former Ironhackers had in the past. It is very long and impossible to finish after 2.5 hours. The idea is to give an overview of what could be a test given by a company.
+This challenge takes inspirtation from several tests that former Ironhackers had in the past. It takes 1 hour. The idea is to give an overview of what could be a test given by a company.
 
 ## Rules
 
-- You have 2.5 hours to complete the challenge.
+- You have 1 hour to complete the challenge.
 - You can ask for help twice. Every time you ask for help, a teacher is going to give you a hint and spend maximum 2 minutes with you.
 - You can't communicate with other people.
 - You can go on any website to find information 😀
@@ -31,15 +31,12 @@ You will have different tasks to complete. Each task gives you up to a certain n
 
 ## Advice 
 
-Don't spend too much time on something that is too hard for you and move on to the next steps. Don't miss the last tasks (4, 5, 6 and 7) which are easy and very important.
+Don't spend too much time on something that is too hard for you and move on to the next steps. Don't miss the last tasks (3, 4, 5 and 6) which are easy and very important.
 
 ## Tools used
 
 - React generated with `create-react-app`
-- NPM packages: `react-router-dom` and `axios`
-- The Movie DB API:
-  - Documentation: https://developers.themoviedb.org/3/people/get-popular-people
-  - Endpoint for the challenge: `GET https://api.themoviedb.org/3/person/popular?page=42&api_key=YOUR-API-KEY`
+- NPM packages: `react-router-dom`
 
 ## Task 0 | Initialize the project
 
@@ -51,10 +48,9 @@ Don't spend too much time on something that is too hard for you and move on to t
   - `/` -- the home page
   - `/temperature`
   - `/customize-image`
-  - `/celebrities`
-  👉 In your `src/App.js`, implement a `<nav>` with 4 links to those pages.
+  👉 In your `src/App.js`, implement a `<nav>` with 3 links to those pages.
 
-At the end of this step, you should have a website displaying 4 different links. At this stage, only the "Home" should work.
+At the end of this step, you should have a website displaying 3 different links. At this stage, only the "Home" should work.
 
 Make sure your code is clear enough for another developer 😉
 
