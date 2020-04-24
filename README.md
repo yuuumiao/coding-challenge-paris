@@ -24,17 +24,10 @@ You will have different tasks to complete. Each task gives you up to a certain n
 0     | Initialize the project                           | 10
 1     | Create the page Temperature                      | 12
 2     | Create the page Customize Image                  | 15
-3.1   | Display 20 celebrities from the API              | 10
-3.2   | Let users select celebrities for more details    | 10
-3.3   | Display 200 celebrities                          | 10
-3.4   | Display 2000 celebrities in less than 30 seconds | 6
-3.5   | Create a search bar                              | 10
-4     | Create a Readme file                             | 5
-5     | Deploy online                                    | 3
-6     | Make a beautiful website                         | 10
-7     | Have a good code quality                         | 5
-
-
+3     | Create a Readme file                             | 5
+4     | Deploy online                                    | 3
+5     | Make a beautiful website                         | 10
+6     | Have a good code quality                         | 5
 
 ## Advice 
 
@@ -111,71 +104,7 @@ Don't worry if your image doesn't have the right proportions. It should work per
 
 ![](https://media.giphy.com/media/cOhxoe7X5hNjzl0Bco/giphy.gif)
 
-
-## Task 3 | Popular actors (very long)
-
-### Task 3.0 | Generate an API key on The Movie DB
-
-- Download [Postman](https://www.getpostman.com) if you don't have it
-- Go to https://www.themoviedb.org
-- Create an account and verify it
-- Request an API key here (you have to give some simple informations): https://www.themoviedb.org/settings/api/request
-- Open Postman and send a request to `GET https://api.themoviedb.org/3/person/popular?page=2&api_key=YOUR-API-KEY`
-
-If everything went well, you should see a result with 20 actors!
-
-![Imgur](https://i.imgur.com/HlEmhA0.png)
-
-If you want more informations about the API, you can check the [documentation](https://developers.themoviedb.org/3/people/get-popular-people).
-
-
-
-### Task 3.1 | Display 20 celebrities
-
-The goal is to display the 20 most popular actors, by fetching the information from: `GET https://api.themoviedb.org/3/person/popular?page=1&api_key=YOUR-API_KEY`.
-
-Some advice:
-- You can install the package `axios` by doing: `npm install axios`
-- You can use a state `celebrities` initalized with `[]`
-
-This is what you could see by the end of this iteration:
-
-![img](https://i.imgur.com/LhASiIe.png)
-
-✅ If you want to display a profile picture, add `"https://image.tmdb.org/t/p/w185"` in front of the the `profile_path`. Example: https://image.tmdb.org/t/p/w185/1YjdSym1jTG7xjHSI0yGGWEsw5i.jpg
-
-
-### Task 3.2 | Let users select celebrities for more details
-
-The goal of this task is to display more details of a celebrity when the user clicks on it. 
-
-The details you should display are the following:
-- The name of the celebrity
-- A picture of the celebrity
-- The `known_for` movies of the celebrity
-
-To complete this task, you have to make the selected celebrity more visible in the list. For example, when a user clicks on "Robert Downey Jr.", you can make his name bolder in the list.
-
-![img](https://i.imgur.com/oO2gJbu.png)
-
-### Task 3.3 | Display 200 celebrities
-
-Make sure you can display at least 200 celebrities!
-
-### Task 3.4 | Display 2000 celebrities in less than 30 seconds
-
-Make sure you can display at least 2000 celebrities in less than 30 seconds! Be careful, with the API, you can only make 40 requests / 10 seconds. So for this task, you need to be able to catch errors sent by the server and send another request later. 
-
-Be careful, if 2 users are browsing your website at the same time, you are going to reach the API limit quicker and your users still want to see the celebrities, even if it takes time.
-
-### Task 3.5 | Create a search bar
-
-The goal of this task is to create a simple search bar to find celebrities by name. The search should be case insensitive.
-
-![Imgur](https://i.imgur.com/11daQIl.png)
-
-
-## Task 4 | Create a Readme file
+## Task 3 | Create a Readme file
 
 The Readme file is the content that is displayed when you go to a Github repository.
 
@@ -185,7 +114,7 @@ You need to create/change a `README.md` file with:
 - Some screenshots
 
 
-## Task 5 | Deploy online
+## Task 4 | Deploy online
 
 Because your are doing a simple front-end project, you can deploy your website very easily with different tools. The easiest one to use is Netlify. 
 
@@ -200,7 +129,7 @@ Then, go to https://netlify.com/drop and drag and drop your `/build` folder gene
 It's already done 😀 Don't forget to add the link to your `README.md` file.
 
 
-## Task 6 | Make a beautiful website
+## Task 5 | Make a beautiful website
 
 Try to make the best website as possible!
 
@@ -211,7 +140,7 @@ Some simple things you can do:
 
 
 
-## Task 7 | Have a good code quality
+## Task 6 | Have a good code quality
 
 People are going to read your code so it's important to have a clean code that follow these principles:
 - Have a good indentation. To reindent a file in VS Code, you can type `Cmd+Shift+P` > "*Format Document*".
